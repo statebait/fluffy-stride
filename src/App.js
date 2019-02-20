@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import "./App.scss"
+// Comments
 
 class App extends Component {
   render() {
