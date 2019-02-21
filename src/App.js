@@ -1,10 +1,21 @@
-import React, { Component } from "react"
+import React from "react"
+import MainInput from "./components/MainInput"
+import { Button } from "reactstrap"
 import "./App.scss"
-// Comments
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return <div className="App-wrapper">Work in progress</div>
+    return (
+      <React.Fragment>
+        <div className="App-wrapper">
+          <p className="stride-text">Stride!</p>
+          <MainInput />
+          <Button id="App-button" size="lg">
+            Encrypt
+          </Button>
+        </div>
+      </React.Fragment>
+    )
   }
 }
 
