@@ -1,6 +1,7 @@
 import React from "react"
+import { AwesomeButton } from "react-awesome-button"
+import "react-awesome-button/dist/themes/theme-c137.css"
 import MainInput from "./components/MainInput"
-import { Button } from "reactstrap"
 import "./App.scss"
 
 class App extends React.Component {
@@ -8,11 +9,11 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <div className="App-wrapper">
-          <p className="stride-text">Stride!</p>
+          <h1 className="stride-text">Stride!</h1>
           <MainInput />
-          <Button id="App-button" size="lg">
-            Encrypt
-          </Button>
+          <AwesomeButton type="secondary" className="App-button">
+            Huh!
+          </AwesomeButton>
         </div>
       </React.Fragment>
     )
