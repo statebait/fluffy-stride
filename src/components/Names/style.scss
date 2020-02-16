@@ -1,0 +1,13 @@
+.names-wrapper {
+  width: 90%;
+  overflow-x: auto;
+  display: flex;
+  .names-map-wrapper {
+    display: flex;
+    margin: 20px;
+  }
+  .name {
+    margin: 5px;
+    width: 50px;
+  }
+}
