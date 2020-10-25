@@ -10,7 +10,7 @@ const names = () => {
   return arr
 }
 
-export default () => {
+export default function Names() {
   return (
     <div className="names-wrapper">
       <div className="names-map-wrapper">
